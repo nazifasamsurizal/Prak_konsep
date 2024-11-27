@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #D2B48C; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+
+}
+header nav ul li a,
+header nav ul li a:hover {
+    color: black; 
+}
+.navbar-brand {
+    font-size:2.3em; 
+    color: #fff; 
+}
+
+nav {
+    background-color: #A0522D;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: auto;
+    display: flex;
+    outline: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #A0522D !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+.navbar-nav {
+    display: flex; 
+    gap: 20px; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 15px 25px;
+    color: black; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: black; 
+}
+
+header {
+    background-color: #3B2A1A;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFE4B5; 
+    margin: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article {
+    flex: 3;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #8B4513;
+    background-color: #FFE4B5; 
+    text-align: justify;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    color: #7d7d7d;
+}
+
+footer {
+    background-color: #A0522D !important;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    main {
+        flex-direction: column;
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+form {
+    max-width : 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFE4B5;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}  
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"], 
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.radio-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #8B4513; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: bacground-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8B4513; 
+}
+
+body {
+    background-color: #D2B48C; 
+}
+
+.form-container {
+    background-color: #FFE4B5; 
+    border: 1px solid #8B4513;
+}
+  
+.btn-gray {
+    background-color: #A0522D; 
+    color: white;
+}
+.btn-custom {
+    background-color: #A0522D; 
+    color: white;             
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #8B4513; 
+}
+
+h1 { 
+    font-size: 35px;
+    text-align:center;
+    color: black; 
+    background-color: #DEB887; 
+    padding: auto;
+}
+
+
+
+
+
+
